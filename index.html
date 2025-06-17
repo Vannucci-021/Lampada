@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lâmpada</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Lâmpada DNC</h1>
+      </header>
+      <div class="container">
+        <div id="img-container">
+          <img
+            id="lampada"
+            src="assets/lampada-apagada.svg"
+            alt="Lâmpada inicialmente apagada"
+          />
+        </div>
+        <div id="buttons-container">
+          <button id="btn-ligar" onclick="Ligar()">Ligar</button>
+          <button id="btn-apagar" onclick="Desligar()">Desligar</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
